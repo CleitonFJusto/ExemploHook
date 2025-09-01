@@ -10,6 +10,8 @@ function App() {
 
   function mudarNome(event){
     nome = event.target.value;
+    
+    setName(event.target.value)
 
   }
   return (
